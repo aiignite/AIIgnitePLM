@@ -1,0 +1,227 @@
+export const translations = {
+  en: {
+    "app.name": "AI Ignite PLM",
+    
+    // Sidebar Groups & Items
+    "menu.workspace": "My Workspace",
+    "menu.dashboard": "Dashboard",
+    "menu.my_tasks": "My Tasks",
+    "menu.portfolio": "Portfolio Mgmt",
+    "menu.projects": "Projects",
+    "menu.analytics": "Analytics",
+    "menu.product_data": "Product Data",
+    "menu.parts": "Parts & BOMs",
+    "menu.documents": "Documents",
+    "menu.eng_changes": "Engineering Change",
+    "menu.organization_group": "Organization",
+    "menu.members": "Members",
+    "menu.org_structure": "Org Structure",
+    "menu.system_admin": "System Admin",
+    "menu.permissions": "Permissions",
+    "menu.logs": "System Logs",
+    "menu.settings": "Settings",
+    "menu.logout": "Logout",
+    "menu.help": "Help & Support",
+
+    // Legacy/Unused (kept for safety or other components)
+    "menu.files": "File Manager",
+    "menu.organization": "Organization",
+
+    "dashboard.total_projects": "Total Projects",
+    "dashboard.active_tasks": "Active Tasks",
+    "dashboard.team_members": "Team Members",
+    "dashboard.budget_usage": "Budget Usage",
+    
+    "dashboard.project_velocity": "Project Velocity",
+    "dashboard.task_distribution": "Task Distribution",
+    "dashboard.active_projects_list": "Active Projects List",
+    "dashboard.team_activity": "Recent Team Activity",
+
+    "settings.title": "Settings",
+    "settings.profile": "Profile",
+    "settings.notifications": "Notifications",
+    "settings.security": "Security",
+    "settings.appearance": "Appearance",
+    "settings.language": "Language & Region",
+    "settings.save": "Save Changes",
+    "settings.cancel": "Cancel",
+    "settings.theme.light": "Light",
+    "settings.theme.dark": "Dark",
+    "settings.theme.system": "System",
+    "settings.lang.english": "English",
+    "settings.lang.chinese": "Chinese (Simplified)",
+    
+    // Settings Sub-pages
+    "settings.firstname": "First Name",
+    "settings.lastname": "Last Name",
+    "settings.email": "Email Address",
+    "settings.role": "Role",
+    "settings.admin_role": "Administrator",
+    
+    "settings.email_notif": "Email Notifications",
+    "settings.push_notif": "Push Notifications",
+    "settings.news_updates": "News and updates",
+    "settings.account_activity": "Account activity",
+    "settings.new_device": "A new device is used to sign in",
+    "settings.new_projects": "New project assignments",
+    "settings.team_msgs": "Messages from team",
+    "settings.save_pref": "Save Preferences",
+
+    "settings.current_password": "Current Password",
+    "settings.new_password": "New Password",
+    "settings.confirm_password": "Confirm New Password",
+    "settings.2fa": "Two-Factor Authentication",
+    "settings.2fa_desc": "Add an extra layer of security to your account.",
+    "settings.update_password": "Update Password",
+
+    "settings.theme": "Theme",
+    "settings.density": "Density",
+    "settings.comfortable": "Comfortable",
+    "settings.compact": "Compact",
+
+    "settings.timezone": "Timezone",
+    "settings.date_format": "Date Format",
+
+    "common.search": "Search...",
+    "common.view_details": "View Details",
+    "common.filter": "Filter",
+    "common.add": "Add",
+
+    // Login Page
+    "login.hero_title": "AI Ignite PLM",
+    "login.hero_desc": "Experience the next generation of Product Lifecycle Management. Driven by Large Language Models to accelerate innovation and optimize workflows.",
+    "login.welcome": "Welcome Back",
+    "login.instruction": "Please enter your details to sign in.",
+    "login.email_label": "Email Address",
+    "login.email_placeholder": "Enter your email",
+    "login.password_label": "Password",
+    "login.password_placeholder": "Enter your password",
+    "login.remember_me": "Remember me",
+    "login.forgot_password": "Forgot password?",
+    "login.sign_in": "Sign In",
+    "login.no_account": "Don't have an account?",
+    "login.contact_admin": "Contact Admin",
+
+    // Notifications
+    "notifications.title": "Notifications",
+    "notifications.view_all": "View All",
+    "notifications.mark_all_read": "Mark all as read",
+    "notifications.empty": "No new notifications",
+    "notifications.filter_all": "All",
+    "notifications.filter_unread": "Unread",
+  },
+  zh: {
+    "app.name": "AI Ignite PLM",
+    
+    // Sidebar Groups & Items
+    "menu.workspace": "我的工作台",
+    "menu.dashboard": "仪表盘",
+    "menu.my_tasks": "我的任务",
+    "menu.portfolio": "项目组合管理",
+    "menu.projects": "项目管理",
+    "menu.analytics": "分析报表",
+    "menu.product_data": "产品数据",
+    "menu.parts": "部件与BOM",
+    "menu.documents": "文档管理",
+    "menu.eng_changes": "工程变更",
+    "menu.organization_group": "组织架构",
+    "menu.members": "成员管理",
+    "menu.org_structure": "架构图",
+    "menu.system_admin": "系统管理",
+    "menu.permissions": "权限管理",
+    "menu.logs": "系统日志",
+    "menu.settings": "系统设置",
+    "menu.logout": "退出登录",
+    "menu.help": "帮助与支持",
+
+    // Legacy/Unused
+    "menu.files": "文件管理",
+    "menu.organization": "组织架构",
+
+    "dashboard.total_projects": "项目总数",
+    "dashboard.active_tasks": "活跃任务",
+    "dashboard.team_members": "团队成员",
+    "dashboard.budget_usage": "预算使用",
+
+    "dashboard.project_velocity": "项目速率",
+    "dashboard.task_distribution": "任务分布",
+    "dashboard.active_projects_list": "活跃项目列表",
+    "dashboard.team_activity": "团队近期活动",
+
+    "settings.title": "设置",
+    "settings.profile": "个人资料",
+    "settings.notifications": "通知设置",
+    "settings.security": "安全中心",
+    "settings.appearance": "外观设置",
+    "settings.language": "语言与地区",
+    "settings.save": "保存更改",
+    "settings.cancel": "取消",
+    "settings.theme.light": "浅色模式",
+    "settings.theme.dark": "深色模式",
+    "settings.theme.system": "跟随系统",
+    "settings.lang.english": "英语 (English)",
+    "settings.lang.chinese": "简体中文",
+
+    // Settings Sub-pages Translations
+    "settings.firstname": "名",
+    "settings.lastname": "姓",
+    "settings.email": "电子邮箱",
+    "settings.role": "角色",
+    "settings.admin_role": "管理员",
+    
+    "settings.email_notif": "邮件通知",
+    "settings.push_notif": "推送通知",
+    "settings.news_updates": "新闻与更新",
+    "settings.account_activity": "账户活动",
+    "settings.new_device": "新设备登录提醒",
+    "settings.new_projects": "新项目分配",
+    "settings.team_msgs": "团队消息",
+    "settings.save_pref": "保存偏好",
+
+    "settings.current_password": "当前密码",
+    "settings.new_password": "新密码",
+    "settings.confirm_password": "确认新密码",
+    "settings.2fa": "双重认证 (2FA)",
+    "settings.2fa_desc": "为您的账户添加额外的安全保护。",
+    "settings.update_password": "更新密码",
+
+    "settings.theme": "主题",
+    "settings.density": "显示密度",
+    "settings.comfortable": "舒适",
+    "settings.compact": "紧凑",
+
+    "settings.timezone": "时区",
+    "settings.date_format": "日期格式",
+
+    "common.search": "搜索...",
+    "common.view_details": "查看详情",
+    "common.filter": "筛选",
+    "common.add": "添加",
+
+    // Login Page
+    "login.hero_title": "AI Ignite PLM",
+    "login.hero_desc": "体验下一代产品生命周期管理。由大语言模型（LLM）驱动，加速创新并优化工作流程。",
+    "login.welcome": "欢迎回来",
+    "login.instruction": "请输入您的账号信息以登录。",
+    "login.email_label": "电子邮箱",
+    "login.email_placeholder": "请输入邮箱",
+    "login.password_label": "密码",
+    "login.password_placeholder": "请输入密码",
+    "login.remember_me": "记住我",
+    "login.forgot_password": "忘记密码？",
+    "login.sign_in": "登 录",
+    "login.no_account": "还没有账号？",
+    "login.contact_admin": "联系管理员",
+
+    // Notifications
+    "notifications.title": "通知中心",
+    "notifications.view_all": "查看全部",
+    "notifications.mark_all_read": "全部标记为已读",
+    "notifications.empty": "暂无新通知",
+    "notifications.filter_all": "全部",
+    "notifications.filter_unread": "未读",
+  }
+};
+
+export type Language = 'en' | 'zh';
+export type Theme = 'light' | 'dark';
